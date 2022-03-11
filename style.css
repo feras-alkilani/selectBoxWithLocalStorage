@@ -1,0 +1,95 @@
+/* .container-fluid{
+    margin-left: 150px;
+}
+
+
+.multiselect {
+    width: 100%;
+    
+  }
+  
+  .selectBox {
+    
+    position: relative;
+  }
+  
+  .selectBox select {
+    width: 100%;
+    
+  }
+  
+  .overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+
+
+  .form-group{
+    margin: 15px;
+   float: left;
+  }
+
+  .box{
+      width: 500px;
+      height: 500px;
+      border: 1px solid #000;
+      margin: auto;
+  }
+
+  .story{
+      text-align: center;
+      padding-top: 200px;
+  } */
+
+
+
+
+
+.container-fluid{
+    margin-left: 150px;
+}
+
+html, body{
+  padding:1em .5em;
+  color:#eee;
+  font-size:18px;
+  margin: auto;
+}
+select, button{
+  margin-top:.5em;
+  display:block;
+  float: left;
+  margin: auto;
+}
+
+
+
+
+.row>* {
+  flex-shrink: 0;
+   width: 100%; 
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-top: var(--bs-gutter-y);
+}
+
+
+.box{
+  width: 500px;
+  height: 500px;
+  border: 1px solid #000;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.story{
+  
+  text-align: center;
+  padding-top: 200px;
+  color: #000;
+} 
+
